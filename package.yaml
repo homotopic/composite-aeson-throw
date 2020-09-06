@@ -1,0 +1,24 @@
+name:                composite-aeson-throw
+version:             0.1.0.0
+license:             MIT
+category:            Text
+author:              "Daniel Firth"
+maintainer:          "dan.firth@homotopic.tech"
+copyright:           "2020 Daniel Firth"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+synopsis:            MonadThrow behaviour for composite-aeson.
+description:         MonadThrow behaviour for composite-aeson.
+
+dependencies:
+- aeson
+- aeson-better-errors
+- base >= 4.7 && < 5
+- composite-aeson
+- exceptions
+
+library:
+  source-dirs: src
